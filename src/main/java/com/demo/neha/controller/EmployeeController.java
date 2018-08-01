@@ -18,13 +18,7 @@ public class EmployeeController {
     @Autowired
     EmployeeService employeeService;
 
-   @RequestMapping(value = "/govind")
 
-    public String Employee(){
-
-        return "HI Employee";
-
-    }
     @RequestMapping(value = "/emp")
      public String m1(){
 
